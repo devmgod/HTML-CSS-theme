@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>wt-hotel-followers</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-y++enYq9sdV7msNmXr08kJdkX4zEI1gMjjkw0l9ttOepH7fMdhb7CePwuRQCfwCr" crossorigin="anonymous">
+<!-- Page Style -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+
+<!-- Carousel -->
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker3.standalone.css">
+<link rel="stylesheet" href="css/rangeslider.css">
+<link href='css/custom.css' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div class="interface interface2 white-text" style="min-height:82px;"> 
+  
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark amtop change innerNav"> 
+    
+    <!-- 
+        <ul class="left-sidebar">
+            <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+             <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+                 <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+                 <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+                 <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-home"></i></a>
+            </li>
+        </ul>
+             --> 
+    
+    <a class="navbar-brand" href="#"> <img src="images/navbar/dark-logo.png" class="light" alt> <img src="images/navbar/dark-logo.png" class="dark hidden" alt> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Destinations</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Travel</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Stay</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Eat</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Do</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Events</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Marketplace</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">More</a> </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="nav-item dropdown"> <a class="search"  id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-search"></i> </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="head searchBxTop">
+              <input type="text" value="" placeholder="What are you looking for?" class="searchBxTop" >
+              <button><i class="fa fa-search"></i></button>
+            </div>
+            <ul>
+              <li><a href="#"> <img src="images/search/search1.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search1.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search1.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search2.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search3.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search4.png"> City of Londo <span>Region</span></a></li>
+              <li><a href="#"> <img src="images/search/search5.png"> City of Londo <span>Region</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#addListPop">Add a Listing</button>
+        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#makePostPop">Make a Post</button>
+        <div class="nav-item dropdown">
+          <div class="purchase"  id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img src="images/navbar/purchase-dark.png" class="light" alt> <img src="images/navbar/purchase-dark.png" class="hidden dark" alt> <span>5</span> </div>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="shop-item">
+              <div> <img src="https://via.placeholder.com/50x50" alt>
+                <h5>Dolar Sit Amet</h5>
+                <p>1 x $7.90</p>
+              </div>
+              <div> <a href="#" class="close">×</a> </div>
+            </div>
+            <div class="shop-item">
+              <div> <img src="https://via.placeholder.com/50x50" alt>
+                <h5>Dolar Sit Amet</h5>
+                <p>1 x $7.90</p>
+              </div>
+              <div> <a href="#" class="close">×</a> </div>
+            </div>
+            <h5>Subtotal: $57.90</h5>
+            <div class="btns">
+              <div><a href="#" class="btn">View cart</a></div>
+              <div><a href="#" class="btn">Checkout</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="user original mr-auto">12,432 points &nbsp; <img src="images/navbar/user.jpg" alt> <span></span> </div>
+        <ul class="all-users">
+          <li>
+            <div class="user"> <img src="images/navbar/user.jpg" alt> <span></span> </div>
+          </li>
+          <li>
+            <div class="user"> <img src="images/navbar/user.jpg" alt> <span></span> </div>
+          </li>
+          <li>
+            <div class="user"> <img src="images/navbar/user.jpg" alt> <span></span> </div>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+</div>
+
+
+<div class="ht_follows_wrapper">
+
+<div class="followersBanner"><img src="images/followers/bg-follow.jpg" width="1920" height="424">
+</div>
+
+<div class="follow_area">
+<div class="container">
+<div class="row">
+<figure><img src="images/followers/norri.jpg" width="272" height="279"></figure>
+<figcaption>
+<h1>Naomi Moore</h1>
+<h5>Back Packer
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+</h5>
+<button class="btn">Follow</button>
+</figcaption>
+</div>
+</div>
+</div>
+
+
+<div class="followSearch">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="followSearchInner clearfix">
+<h3><span><a href="#">Naomi’s Followers (86)</a></span><span>|</span> <span><a href="#">Naomi’s Following (105)</a></span></h3>
+<div class="search_bx">
+<input type="text" placeholder="Search"><input type="submit" value="">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="followListing">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow1.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th1.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow2.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th2.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow3.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th3.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow4.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th4.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow5.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th5.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow6.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th6.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow7.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th7.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-sm-6">
+<div class="bx">
+<figure>
+<a href="#"><img src="images/followers/follow8.jpg" width="394" height="157"></a> 
+</figure>
+<figcaption>
+<span class="avtar"><a href="#"><img src="images/followers/follow_th8.jpg" width="141" height="144"></a></span>
+<h3><a href="#">Nicholas Grissom</a></h3>
+<h5>San Fransisco, CA</h5>
+<div class="dot dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">...</a>
+<div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Report Profile</a>
+    <a class="dropdown-item" href="#">Block Profile</a>
+    <a class="dropdown-item" href="#">Turn off Notifications</a>
+  </div>
+</div>
+
+
+ 
+</figcaption>
+<ul>
+<li>52<span>Posts</span></li>
+<li>240<span>Photos</span></li>
+<li>16<span>Videos</span></li>
+<li>79<span>Followers</span></li>
+<li>26<span>Following</span></li>
+</ul>
+<div class="bottom">
+<a href="#" class="blue"><img src="images/followers/smily_icon.png" width="41" height="35"></a>
+<a href="#"  class="yellow"><img src="images/followers/chat_icon.png" width="39" height="35"></a>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+<!-- User Popup -->
+<div class="modal user-pop" id="user-pop1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop3">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop4">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop5">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop6">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal user-pop" id="user-pop7">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="head" style="background-image: url(images/user-pop/user-pop-bg.jpg)"> <img src="images/user-pop/user-pop.jpg" alt>
+        <h4>Name Here</h4>
+        <ul class="btns">
+          <li> <a href="#" class="btn">Follow Me</a> </li>
+          <li> <a href="#" class="btn">Notify Me</a> </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <div class="row">
+          <div class="col col-6"> <i class="fa fa-phone"></i> +7 (111) 123456789 </div>
+          <div class="col col-6"> <i class="fa fa-envelope-o"></i> yourmail@domain.com </div>
+          <div class="col col-12"> <i class="fa fa-map-marker"></i> USA 27TH Brooklyn NY </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<div class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>Destinations</h5>
+        <a href="#" class="link">Europe</a> <a href="#" class="link">North America</a> <a href="#" class="link">Pacific</a> <a href="#" class="link">South America</a> <a href="#" class="link">Asia</a> <a href="#" class="link">Africa</a> <a href="#" class="link">Middle East</a> <a href="#" class="link">Carribbean</a> <a href="#" class="link">Australia</a> <a href="#" class="link more">More</a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>Cities</h5>
+        <a href="#" class="link">Berlin</a> <a href="#" class="link">London</a> <a href="#" class="link">Barcelona</a> <a href="#" class="link">New York</a> <a href="#" class="link">Tokyo</a> <a href="#" class="link">Sao Paolo</a> <a href="#" class="link">Moscow</a> <a href="#" class="link">Belgrade</a> <a href="#" class="link">Zagreb</a> <a href="#" class="link more">More</a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>Interests</h5>
+        <a href="#" class="link">Adventure</a> <a href="#" class="link">Family Holidays</a> <a href="#" class="link">Festivals</a> <a href="#" class="link">Wildlife</a> <a href="#" class="link">Cruises</a> <a href="#" class="link">Backpacking</a> <a href="#" class="link">Faraway Travels</a> <a href="#" class="link">Honeymoon and Romancing</a> <a href="#" class="link">Budget Travels</a> <a href="#" class="link more">More</a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>About</h5>
+        <a href="#" class="link">About Travelicious</a> <a href="#" class="link">Our Guides</a> <a href="#" class="link">Tour prices</a> <a href="#" class="link">FAQs</a> <a href="#" class="link">Contact us</a> <a href="#" class="link">Location</a> <a href="#" class="link">Testimonials</a> <a href="#" class="link">Clients</a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>Shop</h5>
+        <a href="#" class="link">Shop</a> <a href="#" class="link">Mugs</a> <a href="#" class="link">T Shirts</a> <a href="#" class="link">Backpacks</a> <a href="#" class="link">Guides</a> <a href="#" class="link">Books</a> </div>
+      <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+        <h5>Our Newsletter</h5>
+        <p>Subscribe to our newsletter and get exclusive first minute offers straight into your inbox. </p>
+        <form action="" method="post">
+          <input type="text" name="subscribe" placeholder="Enter your email Address" class="input">
+          <input type="submit" value="Subscribe" class="btn">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer-bar">
+  <div class="container-fluid">
+    <div class="flex">
+      <div>
+        <ul>
+          <img src="images/footer/logo2.png" class="logo2">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Become</a></li>
+          <li><a href="#">Our Guide</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li>&copy; 2019 All Rights Reserved.</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="sm">
+          <li>Visit us on Social Networks</li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="addListPop" class="modal fade modal_wrapper" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+        <h4 class="modal-title">Create your listing</h4>
+      </div>
+      <div class="modal-body">
+        <h3>
+          <input type="text" placeholder="Enter your listing title here..." class="list_inpt">
+        </h3>
+        <ul>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon1.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Holiday rental</a></h3>
+          </li>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon2.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Hotel</a></h3>
+          </li>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon3.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Restaurent</a></h3>
+          </li>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon4.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Attraction</a></h3>
+          </li>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon5.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Event</a></h3>
+          </li>
+          <li>
+            <figure><a href="#"><img src="images/listing_icon/list_icon6.png" width="53" height="53"></a></figure>
+            <h3><a href="#">Market Place</a></h3>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer"> <span><a href="#"> Enter listing type manually</a></span>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="makePostPop" class="modal fade modal_wrapper" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header"> 
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>--> 
+        <span class="makePic"><img src="images/user/user-say1.jpg" width="101" height="102"></span> </div>
+      <div class="modal-body">
+        <h3>
+          <input type="text" placeholder="Start typing your post here..." class="makePosTxt">
+        </h3>
+        <ul>
+          <li>
+            <figure><img src="images/location1.png" width="35" height="30">
+              <input type="text" placeholder="Enter Your Location...">
+            </figure>
+            <div class="mapIconBx"><img src="images/Forma-16.png" width="26" height="20"></div>
+            <div class="postType">
+              <div class="dropdown"> <span class=" dropdown-toggle" data-toggle="dropdown"> Post Type <i class="fa fa-caret-down"></i> </span>
+                <div class="dropdown-menu"> <a class="dropdown-item" href="#"><i class="fa fa-bars"></i> Story</a> <a class="dropdown-item" href="#"><i class="fa fa-bars"></i> Open List</a> <a class="dropdown-item" href="#"><i class="fa fa-bars"></i> Ranked list</a>
+                  <div><a href="#" style="text-align:center; border:none; width:100%; display:block; color:inherit">View All Formats</a></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <figure><img src="images/hashtag1.png" width="35" height="30">
+              <input type="text" placeholder="Enter hashtag">
+            </figure>
+          </li>
+          <li>
+            <figure><img src="images/list1.png" width="35" height="30">
+              <input type="text" placeholder="Enter Categories(Seprate by comma)">
+            </figure>
+            <div class="mapIconBx2">
+              <input type="checkbox">
+              NSFW</div>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer"> <span>Write an article on World Tourismy</span>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="likersPop" class="modal fade modal_wrapper" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>People who reacted</h3>
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>--> 
+        
+      </div>
+      <div class="modal-body">
+        <ul class="nav nav-pills">
+          <li class="nav-item"> <a class="nav-link active" data-toggle="pill" href="#likerTab1"><i class="fa fa-heart"></i> 225</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab2"><img src="images/reactions/cry.png" width="28" height="27"> 100</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab3"><img src="images/reactions/cute.png" width="28" height="27"> 85</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab4"><img src="images/reactions/lol.png" width="28" height="27"> 25</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab5"><img src="images/reactions/love.png" width="28" height="27"> 109</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab6"><img src="images/reactions/omg.png" width="28" height="27"> 111</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#likerTab7"><img src="images/reactions/wtf.png" width="28" height="27"> 200</a> </li>
+        </ul>
+        
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="likerTab1">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab2">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab3">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab4">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab5">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab6">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="likerTab7">
+            <div class="likersData">
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+              <div class="likersRow">
+                <figure> <span><img src="images/user/user-say1.jpg" width="101" height="102"></span>
+                  <h6><img src="images/reactions/love.png" width="28" height="27"></h6>
+                </figure>
+                <h4>John Smoth</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- jQuery --> 
+<script src="js/jquery-1.12.4.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> 
+
+<!-- Bootstrap --> 
+<script src="js/plugins.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Script --> 
+<script src="js/script.js"></script>
+</body>
+</html>
